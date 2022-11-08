@@ -26,3 +26,6 @@ THEN I can save my initials and my score
 
 The following animation demonstrates the application functionality:
 ![Start of quiz with instructions](./assets/images/ImageQuiz.jpeg)
+
+You can access the deployed application with the GitHup Pages link:
+[https://deebo18.github.io/M4-Code-Quiz-Challenge-DPB/](https://deebo18.github.io/M4-Code-Quiz-Challenge-DPB/)
