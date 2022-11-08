@@ -206,7 +206,7 @@ var createHighScore = function (event) {
   event.preventDefault();
   var initials = document.querySelector("#initials").value;
   if (!initials) {
-    alert("Please enter intials.");
+    alert("Please enter intials");
     return;
   }
 
@@ -217,7 +217,7 @@ var createHighScore = function (event) {
     score: score,
   };
 
-//push and sort scores
+  //push and sort scores
   HighScores.push(HighScore);
   HighScores.sort((a, b) => {
     return b.score - a.score;
@@ -227,7 +227,7 @@ var createHighScore = function (event) {
   while (listHighScoreEl.firstChild) {
     listHighScoreEl.removeChild(listHighScoreEl.firstChild);
   }
-//Create elements in order of the high scores
+  //create elements in order of high scores
   for (var i = 0; i < HighScores.length; i++) {
     var highscoreEl = document.createElement("li");
     highscoreEl.ClassName = "high-score";
@@ -239,6 +239,7 @@ var createHighScore = function (event) {
   saveHighScore();
   displayHighScores();
 };
+
 
 //Click and submit listeners for different functions.
 btnStartEl.addEventListener("click", startGame);

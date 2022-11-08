@@ -1,4 +1,4 @@
-## User Story
+# User Story
 
 ```
 AS A coding boot camp student
@@ -22,6 +22,7 @@ WHEN the game is over
 THEN I can save my initials and my score
 ```
 
-## Mock-Up
+### Functionality
 
 The following animation demonstrates the application functionality:
+![Start of quiz with instructions](./assets/images/ImageQuiz.jpeg)
